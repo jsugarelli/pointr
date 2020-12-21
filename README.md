@@ -6,11 +6,11 @@ Pointers/shortcuts in R with the ‘pointr’ package
 R’s built-in copy-on-modify behavior prevents the user from having two
 symbols always pointing to the same object. Because pointers, as they
 are common in other programming languages, are essentially symbols
-(variable) related to an object that has already another symbol attached
+(variables) related to an object that has already another symbol attached
 to it, it is clear that pointers do not fit naturally into R’s language
 concept.
 
-However, pointers would indredibly useful, e.g. when you work with
+However, pointers would be incredibly useful, e.g. when you work with
 complex subsets of dataframes. These complex filtering conditions make
 the code harder to read and to maintain. For this reason, it would be
 good to have a kind of ‘abbreviation’ or ‘shortcut’ that lets you write

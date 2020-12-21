@@ -1,7 +1,7 @@
 Package: pointr
 Type: Package
 Title: Working Comfortably with Pointers and Shortcuts to R Objects
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: person("Joachim", "Zuckarelli", role = c("aut", "cre"), email = "joachim@zuckarelli.de", comment = c(ORCID = "0000-0002-9280-3016"))
 Maintainer: Joachim Zuckarelli <joachim@zuckarelli.de>
 Description: R has no built-in pointer functionality. The 'pointr' package fills this gap and lets you create pointers to R objects, including subsets of dataframes. This makes your R code more readable and maintainable.
@@ -11,4 +11,4 @@ URL: https://github.com/jsugarelli/pointr/
 Encoding: UTF-8
 LazyData: true
 Imports: stringr
-RoxygenNote: 7.1.0
+RoxygenNote: 7.1.1
